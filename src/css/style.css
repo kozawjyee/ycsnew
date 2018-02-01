@@ -1,0 +1,93 @@
+h2#heading1{
+		font-size:45px;
+		width:800px;
+		font-family:tf;
+		font-weight:70px;
+		text-align:left;
+}
+h2#heading2{
+		font-size:45px;
+		width:800px;
+		font-family:tf;
+		font-weight:70px;
+		text-align:left;
+}
+h2#heading3{
+		font-size:45px;
+		width:750px;
+		font-family:tf;
+		font-weight:70px;
+
+}
+h2#heading4{
+		font-size:45px;
+		width:600px;
+		font-family:tf;
+		font-weight:70px;
+		
+}
+@font-face{
+	font-family:tf;
+	src:url("fonts/tt0010m_.ttf");
+	
+}
+.f40{
+	font-size:40px;
+}
+.f16{
+	font-size:16px;
+	line-height:16px;
+}
+.text-white{
+	color:#fff;
+}
+.f14{
+	font-size:14px !important;
+	line-height:14px !important
+}
+h2 .heading{
+	line-height:45px !important;
+}
+
+.bold{
+	font-weight: bold !important;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
